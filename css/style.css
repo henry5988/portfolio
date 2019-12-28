@@ -19,7 +19,8 @@ body {
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 16px; } }
+      font-size: 16px;
+    } }
 
 a {
   color: #F75940;
@@ -658,14 +659,14 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(255, 255, 255, 0.5); }
-        .project .desc h3 {
-          font-style: 28px;
+        background: rgba(255, 255, 255, 0.85); }
+        .project .desc h3 a{
+          font-size: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
           color: #000; }
-      .project .desc h4 {
-        font-style: 28px;
+      .project .desc h4 a{
+        font-size: 28px;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         color: #000; }
